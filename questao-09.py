@@ -9,13 +9,13 @@ def operacao(x, y, z):
 		print("\nA soma de", x,"+", y,"é igual a",result,"\n")
 	elif(z == 2):
 		result = x - y
-		print("\nA subtração de", x,"+", y,"é igual a",result,"\n")
+		print("\nA subtração de", x,"-", y,"é igual a",result,"\n")
 	elif(z == 3):
 		result = x * y
-		print("\nA multiplicação de", x,"+", y,"é igual a",result,"\n")
+		print("\nA multiplicação de", x,"*", y,"é igual a",result,"\n")
 	elif(z == 4):
 		result = x / y
-		print("\nA divisão de", x,"+", y,"é igual a",result,"\n")
+		print("\nA divisão de", x,"/", y,"é igual a",result,"\n")
 	else:
 		print("\nERROR!!! Opção inválida.\n")
 

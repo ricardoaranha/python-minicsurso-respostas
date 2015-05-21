@@ -11,11 +11,13 @@ data atual pelo sistema.
 
 ano_atual = date.today()
 
-nome = input("Digite seu nome:\n")
-ano_nascimento = int(input("Digite o ano em que você nasceu:\n"))
+def mensagem():
+        nome = input("Digite seu nome:\n")
+        ano_nascimento = int(input("Digite o ano em que você nasceu:\n"))
+        idade = ano_atual.year - ano_nascimento 
+        print("Olá", nome,"você tem", idade,"anos.\n")
 
-def mensagem(x, y):
-	idade = ano_atual.year - x
-	print("Olá", y,"você tem", idade,"anos.")
-
-mensagem(ano_nascimento, nome)
+mensagem()
+mensagem()
+mensagem()
+mensagem()
